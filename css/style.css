@@ -103,7 +103,7 @@ img{
     align-items: center;
 }
 .pricing-type-box {
-    flex-shrink: 1;
+    flex-shrink: 1;  
     width: 340px;
     padding: 30px;
     background-color: #fff;
