@@ -98,6 +98,7 @@ img{
 }
 .pricing-type-block {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -108,6 +109,9 @@ img{
     background-color: #fff;
     border-radius: 10px;
     transition: all 0.3s ease;
+}
+.pricing-type-box:not(:last-child){
+    margin-bottom: 10px;
 }
 .pricing-type-box:hover{
     color: #fff;
